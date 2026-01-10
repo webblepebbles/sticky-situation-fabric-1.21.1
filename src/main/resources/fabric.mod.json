@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "sticky-situation",
+	"version": "${version}",
+	"name": "sticky situation",
+	"description": "bit of a sticky situation",
+	"authors": [
+		"Bloffo, master of sticks"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/sticky-situation/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.bloffo.stickysituation.StickySituation"
+		],
+		"fabric-datagen": [
+			"net.bloffo.stickysituation.StickySituationDataGenerator"
+		],
+		"Client": [
+			"net.bloffo.stickysituation.StickySituationClient"
+		]
+	},
+	"mixins": [
+		"sticky-situation.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
