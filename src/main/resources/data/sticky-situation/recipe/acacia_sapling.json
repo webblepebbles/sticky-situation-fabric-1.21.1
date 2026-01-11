@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ingredients",
+  "ingredients": [
+    {
+      "item": "sticky-situation:biggest_stick"
+    },
+    {
+      "item": "minecraft:acacia_leaves"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:acacia_sapling"
+  }
+}

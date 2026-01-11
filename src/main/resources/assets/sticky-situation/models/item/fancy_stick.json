@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0":"sticky-situation:item/fancy_stick"
+  }
+}

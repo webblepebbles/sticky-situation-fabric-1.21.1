@@ -1,5 +1,6 @@
 package net.bloffo.stickysituation;
 
+import net.bloffo.stickysituation.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,5 +12,6 @@ public class StickySituation implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModItems.registerModItems();
 	}
 }
