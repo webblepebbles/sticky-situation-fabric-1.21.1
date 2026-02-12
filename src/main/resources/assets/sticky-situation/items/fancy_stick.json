@@ -2,5 +2,18 @@
   "model": {
     "type": "minecraft:model",
     "model": "sticky-situation:item/fancy_stick"
+  },
+  "components": {
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "type": "minecraft:block_interaction_range",
+          "slot": "mainhand",
+          "id": "sticky-situation:fancy_stick_range",
+          "amount": 4.0,
+          "operation": "add_value"
+        }
+      ]
+    }
   }
 }

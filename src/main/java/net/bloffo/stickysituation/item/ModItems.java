@@ -11,7 +11,6 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-public class ModItems {
     public static final Item FANCY_STICK = registerItem("fancy_stick");
     public static final Item BIG_STICK = registerItem("big_stick");
     public static final Item BIGGER_STICK = registerItem("bigger_stick");

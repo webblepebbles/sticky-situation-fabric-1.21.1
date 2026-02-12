@@ -2,5 +2,18 @@
   "model": {
     "type": "minecraft:model",
     "model": "sticky-situation:item/big_stick"
+  },
+  "components": {
+    "minecraft:attribute_modifiers": {
+      "modifiers": [
+        {
+          "type": "minecraft:block_interaction_range",
+          "slot": "mainhand",
+          "id": "sticky-situation:big_stick_range",
+          "amount": 6.5,
+          "operation": "add_value"
+        }
+      ]
+    }
   }
 }
