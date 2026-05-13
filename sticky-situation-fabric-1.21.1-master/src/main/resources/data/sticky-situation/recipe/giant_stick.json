@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ingredients",
+  "ingredients": [
+    "sticky-situation:even_bigger_stick",
+    "sticky-situation:even_bigger_stick"
+  ],
+  "result": {
+    "count": 1,
+    "id": "sticky-situation:giant_stick"
+  }
+}

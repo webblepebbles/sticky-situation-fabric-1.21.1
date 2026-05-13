@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "ingredients",
+  "ingredients": [
+    "sticky-situation:biggest_stick",
+    "minecraft:birch_leaves"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:birch_sapling"
+  }
+}
